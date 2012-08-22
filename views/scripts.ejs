@@ -1,0 +1,50 @@
+    <!-- <html> -->
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="/js/sequence.jquery-min.js"></script>
+    <script src="/js/waypoints.min.js"></script>
+    <script src="/js/quicksand.js"></script>
+    <script src="/js/jribbble.js"></script>
+    <script src="/js/jquery.masonery.js"></script>
+    <script src="/js/modernizr.custom.js"></script>
+    <script src="/js/gmaps.js"></script>
+    <script src="/js/jquery.accordion.js"></script>
+    <script src="/js/jquery.countdown.js"></script>
+    <script src="/js/jquery.parallax.min.js"></script>
+
+    <script src="/js/custom.js"></script>
+    
+    <script type="text/javascript">
+    $(function(){
+        $('#counter').countdown({
+          image: 'images/digits_inverted.png',
+          endtime: new Date("Sep, 14, 2012").getTime().toString()
+        });
+    });
+    </script>
+    <script type="text/javascript">
+        jQuery( '.parallax-layer' ).parallax( {
+                mouseport: jQuery(".parallax-viewport")
+            } );
+        </script>
+
+    <script type="text/javascript">
+     var map = new GMaps({
+          div: '#map',
+          lat: 31.305413,
+          lng: 121.513571
+        });
+     map.addMarker({
+          lat: 31.305413,
+          lng: 121.513571,
+          title: 'Knowledge and Innovation Center',
+          infoWindow: {
+              content: '<div class="light"><p><h3>Knowledge and Innovation Center</h3></p><p class="light">234号 Songhu Road<br/>Yangpu, Shanghai, China<br/>021-65500808<br/><a target="_blank" href="http://www.kic.net.cn">kic.net.cn</a>‎<br/></p></div>'
+            }
+        });
+    </script>
+    
+    <script type="text/javascript">
+    if (typeof jQuery == 'undefined'){
+        document.write(unescape("%3Cscript src='js/jquery.js' type='text/javascript'%3E%3C/script%3E"));
+    }
+    </script>

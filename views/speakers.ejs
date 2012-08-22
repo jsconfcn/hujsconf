@@ -1,0 +1,24 @@
+    <section id="speakers" class="container light pal2">
+        <div class="content">
+            <div class="title icon-preview">
+                <h1>Speakers <span>res.render('presentation')</span></h1>
+                <div class="description">
+                    <nav id="filter"></nav>
+                </div>
+            </div>
+        
+            <article class="portfolio">
+                <ul id="stage">
+                    <%  for (var key in schedule) { %>
+                    <%  var talk = schedule[key]; %>
+                    <%  var speaker = talk.speaker; %>
+                    <%  if(speaker && speaker.should_display) { %>
+                        <li data-tags="<%= speaker.tags %>"><div class="thumb"><a href="/schedule/<%= key %>"><img src="images/speaker/<%= speaker.twitter %>.jpg" alt="<%=speaker.twitter%>" /></a></div>
+                            <div class="info"><h3><%=speaker.name%> <span><a href="https://twitter.com/<%=speaker.twitter%>" target="_blank">@<%=speaker.twitter%></a></span></h3><p><%- speaker.blurb%></p></div>
+                        </li>
+                    <%      } %>
+                    <%  } %>
+                </ul>
+            </article>
+        </div>
+    </section>

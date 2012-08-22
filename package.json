@@ -1,0 +1,12 @@
+{
+ "name":"af-node-base",
+  "version":"0.0.1",
+  "dependencies":{
+    "connect": "2.3.8",
+    "express": "3.0.0beta6",
+    "localize": "0.4.4",
+    "ejs": "0.8.0",
+    "connect-i18n": "0.2.0",
+    "dateformat": ""
+  }
+}

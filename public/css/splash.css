@@ -1,0 +1,217 @@
+/* splash.css */
+
+.splash { 
+  position: absolute;
+  width: 100%;
+}
+.parallax-viewport {
+  position: relative;
+  background: rgb(47, 49, 52);
+  overflow: hidden;
+  height: 768px;
+}
+
+.parallax-layer { 
+  position:absolute;
+}
+
+.front {
+  z-index: 998;
+  position: relative;
+  margin: 0 auto; 
+  width: 508px;
+}
+
+.cntSeparator {
+  font-size: 54px;
+  margin: 10px 7px;
+}
+
+.time-labels div {
+  float: left;
+  font-family: Arial;
+  width: 70px;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  width: 106px;
+  text-shadow: #2a2a2a 0.01em 0.01em 0.05em;
+}
+
+.splash-title {
+  margin: 160px 0px 20px 0px;
+  position:relative;
+  text-align: center;
+}
+
+.splash-title h1 {
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: 'Russo One', sans-serif;
+  color: #e7e7e7;
+  text-shadow: #2a2a2a 0.01em 0.01em 0.05em;
+}
+
+
+/*?*/
+.content .title h1 span {
+    text-transform: lowercase;
+}
+
+/*info*/
+
+span.twitter { margin: 0 auto;display:block;width:60px;height:60px;overflow:hidden;background-image:url(../images/tweet.png) }
+
+
+ .social_nav {
+  width: 100px;
+/*  position: absolute;
+  top: 20px;
+  right: 0;
+*/}
+
+.social_nav a .icon {
+  background: url(../images/social_icons_bg.png) 0px 0px no-repeat;
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+ .social_nav .large a .icon {
+  width: 60px;
+  height: 60px;
+}
+
+ .social_nav .medium a .icon{
+  width: 50px;
+  height: 50px;
+}
+
+ .social_nav .twitter.large .icon{ background-position: 0px -300px;}
+ .social_nav .twitter.medium .icon{ background-position: 0px -120px;}
+ .social_nav .tumblr.medium .icon{ background-position: 0px -380px;}
+ .social_nav .lanyard .icon{ background-position: 0px -240px;}
+
+
+.social_nav dt {
+  margin: 0 0 10px 0;
+}
+
+ .social_nav dd{
+  margin: 0;
+  position: absolute;
+  top: 35px;
+  left: 0;
+}
+
+ .social_nav .lanyard {
+  left: 50px;
+}
+
+
+
+/* !3.2 Social Icons */
+
+.social_nav .small a {
+  width: 30px;
+  height: 30px;
+}
+.rock {
+  -webkit-transition: -webkit-transform 0.4s ease-out;
+      -moz-transition: -moz-transform 0.4s ease-out;
+        -ms-transition: -ms-transform 0.4s ease-out;
+          -o-transition: -o-transform 0.4s ease-out;
+                transition: transform 0.4s ease-out;
+}
+
+*:hover > .rock {
+  -webkit-transform: rotateZ(15deg);
+       -moz-transform: rotateZ(15deg);
+        -ms-transform: rotateZ(15deg);
+         -o-transform: rotateZ(15deg);
+            transform: rotateZ(15deg);
+}
+
+@-webkit-keyframes bounce {
+   from {
+      margin-left: -25px;
+   }
+   to {
+      margin-left: 25px;
+   }
+}
+
+/* contact */
+#contact ul li {
+    width: 210px;
+    height: 270px;
+    float: left;
+    margin: 0px 20px 20px 0px;
+    background-color: #fff;
+    box-shadow: 0px 1px #dddddc;
+    padding: 0px;
+}
+#contact ul li .thumb {
+    width: 210px;
+    height: 200px;
+    overflow: hidden;
+}
+#contact ul li img {
+    height: 200px;
+    margin: 0px 0px;
+    -webkit-transition-duration: .4s;
+    -moz-transition-duration: .4s;
+    -o-transition-duration: .4s;
+    -ms-transition-duration: .4s;
+    transition-duration: .4s;
+}
+#contact ul li img:hover {
+    opacity: 0.8;
+    -webkit-transition-duration: .4s;
+    -moz-transition-duration: .4s;
+    -o-transition-duration: .4s;
+    -ms-transition-duration: .4s;
+    transition-duration: .4s;
+}
+#contact ul li .info {
+    padding: 10px 10px;
+    width: 200px;
+}
+#contact ul li .info h3 {
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 11px;
+    line-height: 16px;
+    color: #424242;
+}
+#contact ul li .info p {
+    color: #adadad;
+    font-size: 11px;
+    text-transform: lowercase;
+    font-style: italic;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+.accordion h4 {
+  display: inline;  
+}
+.accordion h4 span.name {
+  font-size: 15px;
+  font-family: 'Open Sans',sans-serif;
+  position: relative;
+  letter-spacing: 0px;
+  border-left: 2px dotted #4d4d4d;
+  padding: 0px 0px 0px 20px;
+  margin-left: 20px;
+  font-weight: normal;
+}
+.accordion span.time {
+  padding: 0px 20px 0px 0px;
+}
+.accordion span.nick {
+  text-transform: lowercase;
+}

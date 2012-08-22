@@ -1,0 +1,113 @@
+    <section id="schedule" class="container dark pal3">
+    <div class="content">
+    <div class="title icon-and">
+        <h1>Schedule</h1>
+    </div>
+    <div class="column-half">
+            <p>Ready for an action-packed three days of wanton Javascript admiration? Get your appetite going and checkout the talks we've got lined up!</p>
+    </div>
+    <div class="full">
+        <div class="subtitle">
+            <h3>September 14th</h3>
+        </div>
+        <div class="accordion" id="schedule1">
+            <% var talks = filterSchedule(schedule, "2012-09-14T00:00:00Z") %>
+            <% for(var key in talks) { %>
+            <%  var talk = talks[key]; %>
+                <a>
+                    <span class="time">
+                    <%= talk.start_time %>-<%= talk.end_time%>
+                    </span>
+                    <h4><%= talk.topic %> 
+                    <% if (talk.speaker) { %>
+                        <span class="name"><%= talk.speaker.name %></span>
+                        <span class="nick">@<%=talk.speaker.twitter%></span>
+                    <% } %>
+                    </h4>
+                </a>
+                <div>
+                    <p><%= talk.abstract %></p>
+                </div>
+            <% } %>
+        </div>
+    </div>
+    <div class="full">
+        <div class="subtitle">
+            <h3>September 15th</h3>
+        </div>
+        <div class="accordion" id="schedule2">
+            <% var talks = filterSchedule(schedule, "2012-09-15T00:00:00Z") %>
+            <% for(var key in talks) { %>
+            <%  var talk = talks[key]; %>
+                <a>
+                    <span class="time">
+                    <%= talk.start_time %>-<%= talk.end_time%>
+                    </span>
+                    <h4><%= talk.topic %> 
+                    <% if (talk.speaker) { %>
+                        <span class="name"><%= talk.speaker.name %></span>
+                        <span class="nick">@<%=talk.speaker.twitter%></span>
+                    <% } %>
+                    </h4>
+                </a>
+                <div>
+                    <p><%= talk.abstract %></p>
+                </div>
+            <% } %>
+        </div>
+    </div>
+    <div class="full">
+        <div class="subtitle">
+            <h3>September 16th</h3>
+        </div>
+        <div class="column-half">
+            <h3>At KIC</h3>
+            <div class="accordion" id="schedule3">
+                <% var talks = filterSchedule(schedule, "2012-09-16T00:00:00Z") %>
+                <% for(var key in talks) { %>
+                <%  var talk = talks[key]; %>
+                <%  if (!talk.location || talk.location != "hackerspace") { %>
+                    <a>
+                        <span class="time">
+                        <%= talk.start_time %>-<%= talk.end_time%>
+                        </span>
+                        <h4><%= talk.topic %> 
+                        <% if (talk.speaker) { %>
+                            <span class="name"><%= talk.speaker.name %></span>
+                            <span class="nick">@<%=talk.speaker.twitter%></span>
+                        <% } %>
+                        </h4>
+                    </a>
+                    <div>
+                        <p><%= talk.abstract %></p>
+                    </div>
+                <% }} %>
+            </div>
+        </div>
+        <div class="column-half">
+            <h3>At Hackerspace</h3>
+            <div class="accordion" id="schedule4">
+                <% var talks = filterSchedule(schedule, "2012-09-16T00:00:00Z") %>
+                <% for(var key in talks) { %>
+                <%  var talk = talks[key]; %>
+                <%  if (talk.location && talk.location == "hackerspace") { %>
+                    <a>
+                        <span class="time">
+                        <%= talk.start_time %>-<%= talk.end_time%>
+                        </span>
+                        <h4><%= talk.topic %> 
+                        <% if (talk.speaker) { %>
+                            <span class="name"><%= talk.speaker.name %></span>
+                            <span class="nick">@<%=talk.speaker.twitter%></span>
+                        <% } %>
+                        </h4>
+                    </a>
+                    <div>
+                        <p><%= talk.abstract %></p>
+                    </div>
+                <% }} %>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>

@@ -1,0 +1,26 @@
+    <section id="sponsors" class="container light pal4">
+    <div class="content">
+    <div class="title"><h1>Sponsors <span>$("*")</span></h1>
+    <div class="description">
+    <p>Without these wonderful companies, this conference wouldn't happen.</p></div></div>
+    
+    <div id="box">
+    
+    <% for(var key in sponsors) { %>
+    <%    var sponsor = sponsors[key]; %>
+        <article class="post">
+        <figure>
+        <a href="<%=sponsor.url%>"><img src="images/sponsor/<%= sponsor.image%>" alt="" /></a>
+        <a href="<%=sponsor.url%>"><h3><%= sponsor.name %></h3></a>
+        <p><%= sponsor.description %></p>
+        </figure>
+        <figcaption><%- sponsor.blurb %></figcaption>
+        </article>
+
+    <% } %>
+    
+    </div>
+    
+    
+    </div>
+    </section>
