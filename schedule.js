@@ -55,7 +55,7 @@ exports.talks = [
 			"imageext" : "jpg",
 			"blurb" : "CTO @levoleague. Made <a href='http://twitter.com/girldevelopit'>@girldevelopit</a> and <a href='http://twitter.com/perfect_basics'>@perfect_basics</a>",
 			"bio:" : "A bio has not yet been submitted.",
-			"tags" : "Node, International",
+			"tags" : "JavaScript, International",
 			"should_display" : "true"
 		}
 	},
@@ -68,7 +68,7 @@ exports.talks = [
 			"name" : "Glenn Block", 
 			"twitter" : "gblock",
 			"imageext" : "jpg",
-			"blurb" : "Senior Program Manager @microsoft. Brought <node.js to <a href='http://twitter.com/windowsazure'>@windowsazure</a>. All around supporter of OSS",
+			"blurb" : "Senior Program Manager @microsoft. Brought node.js to <a href='http://twitter.com/windowsazure'>@windowsazure</a>. All around supporter of OSS",
 			"bio:" : "A bio has not yet been submitted.",
 			"tags" : "Node, Azure, International",
 			"should_display" : "true"
@@ -85,7 +85,7 @@ exports.talks = [
 			"imageext" : "png",
 			"blurb" : "CEO@Learnboost. Author of <a href='http://socket.io'/>.",
 			"bio:" : "A bio has not yet been submitted.",
-			"tags" : "Node, Azure, International",
+			"tags" : "Node, Socket.io, International",
 			"should_display" : "true"
 		}
 	},
