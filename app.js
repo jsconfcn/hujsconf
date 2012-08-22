@@ -78,4 +78,4 @@ app.get("/schedule/:item", function(req, res) {
 	}
 });
 
-app.listen(process.env.VCAP_APP_PORT || process.argv[2] || process.env.PORT || 3000);
+app.listen(process.env.VCAP_APP_PORT || process.argv[2] || 3000);
