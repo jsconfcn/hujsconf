@@ -53,7 +53,7 @@ exports.talks = [
 			"name" : "Sara Chipps", 
 			"twitter" : "sarajchipps",
 			"imageext" : "jpg",
-			"blurb" : "CTO @levoleague. Made <a href='http://twitter.com/girldevelopit'>@girldevelopit</a> and <a href='http://twitter.com/perfect_basics'>@perfect_basics</a>",
+			"blurb" : "CTO @<a href='http://levoleague.com'>levoleague</a>. Made <a href='http://twitter.com/girldevelopit'>@girldevelopit</a> and <a href='http://twitter.com/perfect_basics'>@perfect_basics</a>",
 			"bio:" : "A bio has not yet been submitted.",
 			"tags" : "JavaScript, International",
 			"should_display" : "true"
@@ -68,7 +68,7 @@ exports.talks = [
 			"name" : "Glenn Block", 
 			"twitter" : "gblock",
 			"imageext" : "jpg",
-			"blurb" : "Senior Program Manager @microsoft. Brought node.js to <a href='http://twitter.com/windowsazure'>@windowsazure</a>. All around supporter of OSS",
+			"blurb" : "Senior Program Manager @<a href='http://www.microsoft.com'>microsoft</a>. Brought node.js to <a href='http://twitter.com/windowsazure'>@windowsazure</a>. All around supporter of OSS",
 			"bio:" : "A bio has not yet been submitted.",
 			"tags" : "Node, Azure, International",
 			"should_display" : "true"
@@ -83,7 +83,7 @@ exports.talks = [
 			"name" : "Guillermo Roach", 
 			"twitter" : "rauchg",
 			"imageext" : "png",
-			"blurb" : "CEO@Learnboost. Author of <a href='http://socket.io'/>.",
+			"blurb" : "CTO and Cofounder @<a href='http://learnboost.com'>Learnboost</a>. Author of <a href='http://socket.io'>socket.io</a>.",
 			"bio:" : "A bio has not yet been submitted.",
 			"tags" : "Node, Socket.io, International",
 			"should_display" : "true"
