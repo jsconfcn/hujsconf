@@ -7,6 +7,7 @@ exports.talks = [
 		"speaker" : {
 			"name" : "James Halliday", 
 			"twitter" : "substack",
+			"imageext" : "jpg",
 			"blurb" : "Creator of <a href='https://github.com/substack/fleet' target='_blank'>fleet</a> and 279 other repositories on Github.",
 			"bio:" : "a longer bio about this person",
 			"tags" : "Node, International",
@@ -21,6 +22,7 @@ exports.talks = [
 		"speaker" : {
 			"name" : "Tim Caswell", 
 			"twitter" : "creationix",
+			"imageext" : "jpg",
 			"blurb" : "Creator of <a href='https://howtonode.org' target='_blank'>howtonode.org</a>.",
 			"bio:" : "A bio has not yet been submitted.",
 			"tags" : "Node, International",
@@ -35,6 +37,7 @@ exports.talks = [
 		"speaker" : {
 			"name" : "Charlie Robbins", 
 			"twitter" : "indexzero",
+			"imageext" : "jpg",
 			"blurb" : "Co-founder of <a href='https://nodejitsu.com' target='_blank'>nodejitsu</a>.",
 			"bio:" : "A bio has not yet been submitted.",
 			"tags" : "Node, International",
@@ -49,9 +52,40 @@ exports.talks = [
 		"speaker" : {
 			"name" : "Sara Chipps", 
 			"twitter" : "sarajchipps",
+			"imageext" : "jpg",
 			"blurb" : "CTO @levoleague. Made <a href='http://twitter.com/girldevelopit'>@girldevelopit</a> and <a href='http://twitter.com/perfect_basics'>@perfect_basics</a>",
 			"bio:" : "A bio has not yet been submitted.",
 			"tags" : "Node, International",
+			"should_display" : "true"
+		}
+	},
+	{
+		"topic" : "Stuff about things",
+		"abstract" : "A long description of this",
+		"date" : new Date("2012-09-15T11:30:00Z"),
+		"duration" : 30,
+		"speaker" : {
+			"name" : "Glenn Block", 
+			"twitter" : "gblock",
+			"imageext" : "jpg",
+			"blurb" : "Senior Program Manager @microsoft. Brought <node.js to <a href='http://twitter.com/windowsazure'>@windowsazure</a>. All around supporter of OSS",
+			"bio:" : "A bio has not yet been submitted.",
+			"tags" : "Node, Azure, International",
+			"should_display" : "true"
+		}
+	},
+	{
+		"topic" : "Stuff about things",
+		"abstract" : "A long description of this",
+		"date" : new Date("2012-09-15T11:30:00Z"),
+		"duration" : 30,
+		"speaker" : {
+			"name" : "Guillermo Roach", 
+			"twitter" : "rauchg",
+			"imageext" : "png",
+			"blurb" : "CEO@Learnboost. Author of <a href='http://socket.io'/>.",
+			"bio:" : "A bio has not yet been submitted.",
+			"tags" : "Node, Azure, International",
 			"should_display" : "true"
 		}
 	},
