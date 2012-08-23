@@ -245,7 +245,7 @@ exports.talks = [
 		"speaker" : {
 			"name" : "小型笨蛋/赵成", 
 			"url" : "http://github.com/zcbenz",
-			"image" : "王达心.png",
+			"image" : "",
 			"blurb" : "Intern at <a href='www.intel.com'>Intel</a>",
 			"tags" : "China, Node, Chromium",
 			"should_display" : "true"
@@ -290,6 +290,20 @@ exports.talks = [
 			"image" : "aleafs.jpg",
 			"blurb" : "Developer@<a href = 'http://www.taobao.com'>tabao</a>",
 			"tags" : "China, Node, Performance, Scale",
+			"should_display" : "true"
+		}
+	},	
+	{
+		"topic" : "Node.js TBD",
+		"abstract" : "",
+		"date" : new Date("2012-09-15T11:30:00Z"),
+		"duration" : 30,
+		"speaker" : {
+			"name" : "JeffSu", 
+			"url" : "https://github.com/jeffsu",
+			"image" : "jeffsu.jpg",
+			"blurb" : "Developer@<a href = 'http://www.factual.com'>factual</a>",
+			"tags" : "China, Node",
 			"should_display" : "true"
 		}
 	},	
