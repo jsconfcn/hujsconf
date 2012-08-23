@@ -163,7 +163,7 @@ exports.talks = [
 			"url" : "http://github.com/fengmk2",
 			"image" : "fengmk2.png",
 			"blurb" : "Developer@<a href='http://taobao.com'>Taobao</a>. A crazy web guy",
-			"tags" : "Local, Node",
+			"tags" : "China, Node",
 			"should_display" : "true"
 		}
 	},
@@ -177,7 +177,7 @@ exports.talks = [
 			"url" : "http://github.com/wintercn",
 			"image" : "寒冬winter.jpg",
 			"blurb" : "Developer@<a href='http://snda.com'>SNDA</a>.",
-			"tags" : "Local, Node",
+			"tags" : "China, Node",
 			"should_display" : "true"
 		}
 	},	
@@ -191,7 +191,7 @@ exports.talks = [
 			"url" : "http://github.com/JeffreyZhao",
 			"image" : "老赵.png",
 			"blurb" : "Editor @<a href='http://infoq.com'>InfoQ</a>.",
-			"tags" : "Local, JavaScript",
+			"tags" : "China, JavaScript",
 			"should_display" : "true"
 		}
 	},	
@@ -205,7 +205,7 @@ exports.talks = [
 			"url" : "http://github.com/lifesinger",
 			"image" : "王保平.jpg",
 			"blurb" : "Developer @<a href='http://alipay.com'>Alipay</a>.",
-			"tags" : "Local, JavaScript, Node",
+			"tags" : "China, JavaScript, Node",
 			"should_display" : "true"
 		}
 	},	
@@ -219,10 +219,80 @@ exports.talks = [
 			"url" : "http://github.com/iwillwen",
 			"image" : "小问.png",
 			"blurb" : "Founder @C61 Labs.",
-			"tags" : "Local, Node, NoSQL",
+			"tags" : "China, Node, NoSQL",
+			"should_display" : "true"
+		}
+	},
+	{
+		"topic" : "基于Node.js的分布式MySQL代理服务",
+		"abstract" : "",
+		"date" : new Date("2012-09-15T11:30:00Z"),
+		"duration" : 30,
+		"speaker" : {
+			"name" : "王达心", 
+			"url" : "http://github.com/freedaxin",
+			"image" : "王达心.png",
+			"blurb" : "Development engineer at <a href='www.weibo.com'>Sina Weibo</a>",
+			"tags" : "China, Node, MySQL",
+			"should_display" : "true"
+		}
+	},
+	{
+		"topic" : "基于Chromium和node.js的桌面应用Runtime",
+		"abstract" : "",
+		"date" : new Date("2012-09-15T11:30:00Z"),
+		"duration" : 30,
+		"speaker" : {
+			"name" : "小型笨蛋/赵成", 
+			"url" : "http://github.com/zcbenz",
+			"image" : "王达心.png",
+			"blurb" : "Intern at <a href='www.intel.com'>Intel</a>",
+			"tags" : "China, Node, Chromium",
 			"should_display" : "true"
 		}
 	},				
+	{
+		"topic" : "node.js游戏服务器开发",
+		"abstract" : "",
+		"date" : new Date("2012-09-15T11:30:00Z"),
+		"duration" : 30,
+		"speaker" : {
+			"name" : "圈圈套圈圈", 
+			"url" : "",
+			"image" : "圈圈套圈圈.png",
+			"blurb" : "Research Institute senior program specialist@<a href = 'http://www.163.com'>netease</a>",
+			"tags" : "China, Node, Chromium",
+			"should_display" : "true"
+		}
+	},				
+	{
+		"topic" : "rrestjs框架介绍及轻博客www.wujb.net应用",
+		"abstract" : "",
+		"date" : new Date("2012-09-15T11:30:00Z"),
+		"duration" : 30,
+		"speaker" : {
+			"name" : "snoopy/吴中骅", 
+			"url" : "",
+			"image" : "snoopy-吴中骅.jpg",
+			"blurb" : "Developer@<a href = 'http://www.163.com'>netease</a>",
+			"tags" : "China, Node, REST",
+			"should_display" : "true"
+		}
+	},
+	{
+		"topic" : "Node性能跟踪与调优",
+		"abstract" : "",
+		"date" : new Date("2012-09-15T11:30:00Z"),
+		"duration" : 30,
+		"speaker" : {
+			"name" : "朋春/张轩丞", 
+			"url" : "http://github.com/aleafs",
+			"image" : "aleafs.jpg",
+			"blurb" : "Developer@<a href = 'http://www.taobao.com'>tabao</a>",
+			"tags" : "China, Node, Performance, Scale",
+			"should_display" : "true"
+		}
+	},	
 	{
 		"topic" : "Hackthon",
 		"abstract" : "A day long hackathon at KIC. This session is only open to those who registered for the full event.",
