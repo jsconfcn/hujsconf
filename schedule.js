@@ -1,6 +1,6 @@
 exports.talks = [
 	{
-		"topic" : "",
+		"topic" : "Node.js TBD",
 		"abstract" : "",
 		"date" : new Date("2012-09-14T14:30:00Z"),
 		"duration" : 30,
@@ -14,7 +14,7 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "",
+		"topic" : "Node.js TBD",
 		"abstract" : "",
 		"date" : new Date("2012-09-14T09:30:00Z"),
 		"duration" : 30,
@@ -28,7 +28,7 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "",
+		"topic" : "Node.js TBD",
 		"abstract" : "",
 		"date" : new Date("2012-09-14T13:30:00Z"),
 		"duration" : 30,
@@ -42,7 +42,7 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "",
+		"topic" : "JavaScript Client TBD",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T11:30:00Z"),
 		"duration" : 30,
@@ -56,7 +56,7 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "",
+		"topic" : "node.js and Microsoft",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T11:30:00Z"),
 		"duration" : 30,
@@ -70,7 +70,7 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "",
+		"topic" : "Engine.io",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T11:30:00Z"),
 		"duration" : 30,
@@ -84,7 +84,7 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "",
+		"topic" : "Real world experiences using ember.js",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T11:30:00Z"),
 		"duration" : 30,
@@ -98,8 +98,8 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "",
-		"abstract" : "A long description of this",
+		"topic" : "Hubot.js, the build and deployment engine for github backed by node",
+		"abstract" : "",
 		"date" : new Date("2012-09-15T11:30:00Z"),
 		"duration" : 30,
 		"speaker" : {
@@ -112,7 +112,7 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "",
+		"topic" : "0 to 60 mobile apps using Azure Mobile and Knockout.js",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T11:30:00Z"),
 		"duration" : 30,
@@ -126,8 +126,8 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "",
-		"abstract" : "",
+		"topic" : "Opener to HuJS",
+		"abstract" : "", 
 		"date" : new Date("2012-09-15T11:30:00Z"),
 		"duration" : 30,
 		"speaker" : {
@@ -140,7 +140,7 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "",
+		"topic" : "Building OSS commmunities",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T11:30:00Z"),
 		"duration" : 30,
@@ -154,7 +154,7 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "",
+		"topic" : "在Node.js上踩过的坑",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T11:30:00Z"),
 		"duration" : 30,
@@ -168,7 +168,7 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "",
+		"topic" : "Ecmascript 5 in action",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T11:30:00Z"),
 		"duration" : 30,
@@ -182,7 +182,7 @@ exports.talks = [
 		}
 	},	
 	{
-		"topic" : "",
+		"topic" : "Wind.js的调试与排错支持",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T11:30:00Z"),
 		"duration" : 30,
@@ -196,7 +196,7 @@ exports.talks = [
 		}
 	},	
 	{
-		"topic" : "",
+		"topic" : "SeaJS - 更自然的代码组织方式",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T11:30:00Z"),
 		"duration" : 30,
@@ -210,7 +210,7 @@ exports.talks = [
 		}
 	},	
 	{
-		"topic" : "",
+		"topic" : "让服务器和客户端牵起手来",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T11:30:00Z"),
 		"duration" : 30,
