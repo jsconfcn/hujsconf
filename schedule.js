@@ -181,7 +181,7 @@ exports.talks = [
 		"speaker" : {
 			"name" : "老赵/赵劼", 
 			"url" : "http://github.com/JeffreyZhao",
-			"image" : "jeffreyzhao.png",
+			"image" : "jeffzhao.png",
 			"blurb" : "Editor @<a href='http://www.infoq.com'>InfoQ</a>.",
 			"tags" : "China, JavaScript",
 			"should_display" : "true"
