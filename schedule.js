@@ -10,8 +10,9 @@ exports.talks = [
 			"url" : "http://github.com/thoward",
 			"image" : "thoward37.jpg",
 			"blurb" : "Developer at <a href='http://appfog.com'>AppFog</a>. Organizer of NodePDX and HuJS",
-			"tags" : "International, NodeJS",
-			"should_display" : "true"
+			"tags" : "International, Node.js",
+			"should_display" : "true",
+			"language" : "en"
 		}
 	},
 	{
@@ -24,12 +25,13 @@ exports.talks = [
 			"url" : "http://github.com/substack",
 			"image" : "substack.jpg",
 			"blurb" : "Creator of <a href='https://github.com/substack/fleet' target='_blank'>fleet</a> and 279 other repositories on Github.",
-			"tags" : "Node, International",
-			"should_display" : "true"
+			"tags" : "Node.js, International",
+			"should_display" : "true",
+			"language" : "en"
 		}
 	},
 	{
-		"topic" : "Hubot.js, the build and deployment engine for github backed by node",
+		"topic" : "Hubot.js, the build and deployment engine for github backed by Node.js",
 		"abstract" : "",
 		"date" : new Date("2012-09-14T11:30:00Z"),
 		"duration" : 30,
@@ -38,7 +40,7 @@ exports.talks = [
 			"url" : "http://github.com/vmg",
 			"image" : "vmg.jpg",
 			"blurb" : "Developer at <a href='http://github.com'>github</a>.",
-			"tags" : "Node, International",
+			"tags" : "Node.js, International",
 			"should_display" : "true"
 		}
 	},
@@ -52,7 +54,7 @@ exports.talks = [
 			"url" : "http://github.com/creationix",
 			"image" : "creationix.jpg",
 			"blurb" : "Creator of <a href='https://howtonode.org' target='_blank'>howtonode.org</a>.",
-			"tags" : "Node, International",
+			"tags" : "Node.js, International",
 			"should_display" : "true"
 		}
 	},
@@ -66,7 +68,7 @@ exports.talks = [
 			"url" : "http://github.com/indexzero",
 			"image" : "indexzero.jpg",
 			"blurb" : "Co-founder of <a href='https://nodejitsu.com' target='_blank'>nodejitsu</a>.",
-			"tags" : "Node, International",
+			"tags" : "Node.js, International",
 			"should_display" : "true"
 		}
 	},
@@ -109,12 +111,12 @@ exports.talks = [
 			"url" : "http://github.com/guille",
 			"image" : "rauchg.png",
 			"blurb" : "CTO and Cofounder @<a href='http://learnboost.com'>Learnboost</a>. Author of <a href='http://socket.io'>socket.io</a>.",
-			"tags" : "Node, Socket.io, International",
+			"tags" : "Node.js, International",
 			"should_display" : "true"
 		}
 	},
 	{
-		"topic" : "node.js and Microsoft",
+		"topic" : "Node.js and Microsoft",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T14:20:00Z"),
 		"duration" : 30,
@@ -123,7 +125,7 @@ exports.talks = [
 			"url" : "http://github.com/glennblock",
 			"image" : "gblock.jpg",
 			"blurb" : "Senior Program Manager @<a href='http://www.microsoft.com'>microsoft</a>. Brought node.js to <a href='http://twitter.com/windowsazure'>@windowsazure</a>. All around supporter of OSS",
-			"tags" : "Node, Azure, International",
+			"tags" : "Node.js, Scalability, International",
 			"should_display" : "true"
 		}
 	},
@@ -137,23 +139,23 @@ exports.talks = [
 			"url" : "http://github.com/atmos",
 			"image" : "atmos.jpg",
 			"blurb" : "Developer at <a href='http://github.com'>github</a>. Author of <a href='http://hubot.github.com'>hubot</a>, <a href='http://atomos.org/cinderella'> cinderella</a> and <a href='http://atomos.org/camo'>camo</camo>",
-			"tags" : "Node, International",
+			"tags" : "Node.js, International",
 			"should_display" : "true"
 		}
 	},
 
 	/* local speakers */
 	{
-		"topic" : "Ecmascript 5 in action",
+		"topic" : "ECMAScript 5 in action",
 		"abstract" : "",
 		"date" : new Date("2012-09-14T10:00:00Z"),
 		"duration" : 30,
 		"speaker" : {
 			"name" : "寒冬winter/程劭非", 
 			"url" : "http://github.com/wintercn",
-			"image" : "寒冬winter.jpg",
-			"blurb" : "Developer@<a href='http://snda.com'>SNDA</a>.",
-			"tags" : "China, Node",
+			"image" : "wintercn.jpg",
+			"blurb" : "Developer @<a href='http://snda.com'>SNDA</a>.",
+			"tags" : "China, Node.js",
 			"should_display" : "true"
 		}
 	},	
@@ -166,8 +168,8 @@ exports.talks = [
 			"name" : "Python发烧友/苏千", 
 			"url" : "http://github.com/fengmk2",
 			"image" : "fengmk2.png",
-			"blurb" : "Developer@<a href='http://taobao.com'>Taobao</a>. A crazy web guy",
-			"tags" : "China, Node",
+			"blurb" : "Developer @<a href='http://taobao.com'>Taobao</a>. A crazy web guy",
+			"tags" : "China, Node.js",
 			"should_display" : "true"
 		}
 	},
@@ -179,7 +181,7 @@ exports.talks = [
 		"speaker" : {
 			"name" : "老赵/赵劼", 
 			"url" : "http://github.com/JeffreyZhao",
-			"image" : "老赵.png",
+			"image" : "jeffreyzhao.png",
 			"blurb" : "Editor @<a href='http://infoq.com'>InfoQ</a>.",
 			"tags" : "China, JavaScript",
 			"should_display" : "true"
@@ -193,9 +195,9 @@ exports.talks = [
 		"speaker" : {
 			"name" : "玉伯也叫射雕/王保平", 
 			"url" : "http://github.com/lifesinger",
-			"image" : "王保平.jpg",
+			"image" : "lifesinger.jpg",
 			"blurb" : "Developer @<a href='http://alipay.com'>Alipay</a>.",
-			"tags" : "China, JavaScript, Node",
+			"tags" : "China, JavaScript, Node.js",
 			"should_display" : "true"
 		}
 	},	
@@ -207,9 +209,9 @@ exports.talks = [
 		"speaker" : {
 			"name" : "小问/甘超阳", 
 			"url" : "http://github.com/iwillwen",
-			"image" : "小问.png",
+			"image" : "iwillwen.png",
 			"blurb" : "Founder @C61 Labs.",
-			"tags" : "China, Node, NoSQL",
+			"tags" : "China, Node.js, Database",
 			"should_display" : "true"
 		}
 	},
@@ -221,43 +223,43 @@ exports.talks = [
 		"speaker" : {
 			"name" : "王达心", 
 			"url" : "http://github.com/freedaxin",
-			"image" : "王达心.png",
-			"blurb" : "Development engineer at <a href='www.weibo.com'>Sina Weibo</a>",
-			"tags" : "China, Node, MySQL",
+			"image" : "freedaxin.png",
+			"blurb" : "Development engineer at <a href='http://www.weibo.com'>Sina Weibo</a>",
+			"tags" : "China, Node.js, Database",
 			"should_display" : "true"
 		}
 	},
 	/* Day 2 */
 	{
-		"topic" : "基于Chromium和node.js的桌面应用Runtime",
+		"topic" : "基于Chromium和Node.js的桌面应用Runtime",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T09:45:00Z"),
 		"duration" : 40,
 		"speaker" : {
 			"name" : "小型笨蛋/赵成", 
 			"url" : "http://github.com/zcbenz",
-			"image" : "",
-			"blurb" : "Intern at <a href='www.intel.com'>Intel</a>",
-			"tags" : "China, Node, Chromium",
+			"image" : "zcbenz.jpg",
+			"blurb" : "Intern at <a href='http://www.intel.com'>Intel</a>",
+			"tags" : "China, Node.js",
 			"should_display" : "true"
 		}
 	},				
 	{
-		"topic" : "node.js游戏服务器开发",
+		"topic" : "Node.js游戏服务器开发",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T11:25:00Z"),
 		"duration" : 35,
 		"speaker" : {
-			"name" : "圈圈套圈圈", 
-			"url" : "",
-			"image" : "圈圈套圈圈.png",
-			"blurb" : "Research Institute senior program specialist@<a href = 'http://www.163.com'>netease</a>",
-			"tags" : "China, Node, Chromium",
+			"name" : "谢骋超/圈圈套圈圈", 
+			"url" : "http://www.cdblp.cn/author/%E8%B0%A2%E9%AA%8B%E8%B6%85",
+			"image" : "xiechengchao.jpg",
+			"blurb" : "Research Institute senior program specialist @<a href = 'http://www.163.com'>netease</a>",
+			"tags" : "China, Node.js, Database",
 			"should_display" : "true"
 		}
 	},				
 	{
-		"topic" : "Node性能跟踪与调优",
+		"topic" : "Node.js性能跟踪与调优",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T13:45:00Z"),
 		"duration" : 30,
@@ -266,7 +268,7 @@ exports.talks = [
 			"url" : "http://github.com/aleafs",
 			"image" : "aleafs.jpg",
 			"blurb" : "Developer@<a href = 'http://www.taobao.com'>tabao</a>",
-			"tags" : "China, Node, Performance, Scale",
+			"tags" : "China, Node.js, Performance, Scalability",
 			"should_display" : "true"
 		}
 	},	
@@ -279,8 +281,8 @@ exports.talks = [
 			"name" : "JeffSu", 
 			"url" : "https://github.com/jeffsu",
 			"image" : "jeffsu.jpg",
-			"blurb" : "Developer@<a href = 'http://www.factual.com'>factual</a>",
-			"tags" : "China, Node",
+			"blurb" : "Developer @<a href = 'http://www.factual.com'>factual</a>",
+			"tags" : "China, Node.js",
 			"should_display" : "true"
 		}
 	},
@@ -291,10 +293,10 @@ exports.talks = [
 		"duration" : 30,
 		"speaker" : {
 			"name" : "snoopy/吴中骅", 
-			"url" : "",
-			"image" : "snoopy-吴中骅.jpg",
-			"blurb" : "Developer@<a href = 'http://www.163.com'>netease</a>",
-			"tags" : "China, Node, REST",
+			"url" : "https://github.com/DoubleSpout",
+			"image" : "doublespout.jpg",
+			"blurb" : "Developer @<a href = 'http://www.163.com'>netease</a>",
+			"tags" : "China, Node.js, REST",
 			"should_display" : "true"
 		}
 	},
@@ -320,7 +322,7 @@ exports.talks = [
 	{
 		"topic" : "Panel Discussion",
 		"abstract" : "All of our speakers will join us on stage to have a panel discussion, including Q/A.",
-		"date" : new Date("2012-09-14T13:00:00Z"),
+		"date" : new Date("2012-09-14T15:00:00Z"),
 		"duration" : 45
 	},
 	{
@@ -350,7 +352,7 @@ exports.talks = [
 	{
 		"topic" : "Panel Discussion",
 		"abstract" : "All of our speakers will join us on stage to have a panel discussion, including Q/A.",
-		"date" : new Date("2012-09-15T13:00:00Z"),
+		"date" : new Date("2012-09-15T15:00:00Z"),
 		"duration" : 45
 	},
 	{
