@@ -125,7 +125,7 @@ jQuery(function ($) {
     });
 });
 jQuery().ready(function () {
-    var accordion_options = { active: false, collapsible: true };
+    var accordion_options = { active: false, collapsible: true, alwaysOpen: false };
     jQuery('#schedule1').accordion(accordion_options);
     jQuery('#schedule2').accordion(accordion_options);
     jQuery('#schedule3').accordion(accordion_options);
