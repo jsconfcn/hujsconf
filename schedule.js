@@ -344,7 +344,7 @@ exports.talks = [
 	{
 		"topic" : "Lunch Break",
 		"abstract" : "Catered lunch at KIC",
-		"date" : new Date("2012-09-15-0T12:00:00Z"),
+		"date" : new Date("2012-09-15T12:00:00Z"),
 		"duration" : 60
 	},
 	{
