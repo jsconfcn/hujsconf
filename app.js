@@ -24,10 +24,6 @@ app.configure(function(){
 var schedule =require('./schedule.js').talks;
 var sponsors =require('./sponsors.js').sponsors;
 
-schedule.sort(function(a, b) {
-    return a.date < b.date ? -1 : (a.date > b.date ? 1 : 0);
-});
-
 function filterSchedule(schedule, dateString) {
 	var results = [];
 	for (var key in schedule) {
@@ -40,7 +36,10 @@ function filterSchedule(schedule, dateString) {
     	results.push(talk);
     }
   }
-  return results;
+  results.sort(function(a, b) {
+    return a.date < b.date ? -1 : (a.date > b.date ? 1 : 0);
+	});
+	return results;
 }
 
 app.get("/", function(req, res) {
