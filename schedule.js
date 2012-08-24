@@ -24,7 +24,7 @@ exports.talks = [
 			"name" : "James Halliday", 
 			"url" : "http://github.com/substack",
 			"image" : "substack.jpg",
-			"blurb" : "Unix philosopher, mad scientist, creater of <href='http://github.com/substack/node-browserify'>browserify</a> and many other node.js modules",
+			"blurb" : "Unix philosopher, mad scientist, creator of <href='http://github.com/substack/node-browserify'>browserify</a> and many other node.js modules",
 			"tags" : "Node.js, International",
 			"should_display" : "true",
 			"language" : "en"
