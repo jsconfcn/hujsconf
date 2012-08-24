@@ -16,7 +16,7 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "Node.js TBD",
+		"topic" : "Apps these days are too big",
 		"abstract" : "",
 		"date" : new Date("2012-09-14T09:15:00Z"),
 		"duration" : 40,
@@ -24,7 +24,7 @@ exports.talks = [
 			"name" : "James Halliday", 
 			"url" : "http://github.com/substack",
 			"image" : "substack.jpg",
-			"blurb" : "Creator of <a href='http://github.com/substack/fleet' target='_blank'>fleet</a> and 279 other repositories on Github.",
+			"blurb" : "Unix philosopher, mad scientist, creater of <href='http://github.com/substack/node-browserify'>browserify</a> and many other node.js modules",
 			"tags" : "Node.js, International",
 			"should_display" : "true",
 			"language" : "en"
