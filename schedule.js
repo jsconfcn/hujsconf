@@ -29,21 +29,21 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "Hubot.js, the build and deployment engine for github backed by node",
+		"topic" : "Intergalactic Javascript Robots from Outer Space",
 		"abstract" : "",
 		"date" : new Date("2012-09-14T11:30:00Z"),
 		"duration" : 30,
 		"speaker" : {
-			"name" : "Vincent Marti", 
+			"name" : "Vicent Marti", 
 			"url" : "http://github.com/vmg",
 			"image" : "vmg.jpg",
-			"blurb" : "Developer at <a href='http://github.com'>github</a>.",
+			"blurb" : "Fancy pants, Systems engineer@<a href='http://github.com'>github</a>.",
 			"tags" : "Node, International",
 			"should_display" : "true"
 		}
 	},
 	{
-		"topic" : "Node.js TBD",
+		"topic" : "Porting Node: The Journey from Lake JavaScript to The Strait of Lua",
 		"abstract" : "",
 		"date" : new Date("2012-09-14T13:00:00Z"),
 		"duration" : 40,
@@ -51,7 +51,7 @@ exports.talks = [
 			"name" : "Tim Caswell", 
 			"url" : "http://github.com/creationix",
 			"image" : "creationix.jpg",
-			"blurb" : "Creator of <a href='https://howtonode.org' target='_blank'>howtonode.org</a>.",
+			"blurb" : "Tinkerer and Mentor (<a href='https://howtonode.org' target='_blank'>howtonode.org</a>, <a href='https://nodebits.org' target='_blank'>nodebits.org</a>)",
 			"tags" : "Node, International",
 			"should_display" : "true"
 		}
@@ -72,12 +72,12 @@ exports.talks = [
 	},
 	/* Day 2 */
 	{
-		"topic" : "0 to 60 mobile apps using Azure Mobile and Knockout.js",
+		"topic" : "0 to 60 Mobile web apps with Knockout.js and Azure Mobile Services", 
 		"abstract" : "",
 		"date" : new Date("2012-09-15T09:00:00Z"),
 		"duration" : 40,
 		"speaker" : {
-			"name" : "Steven Sanderson", 
+			"name" : "Steve Sanderson", 
 			"url" : "http://github.com/stevesanderson",
 			"image" : "stevensanderson.jpg",
 			"blurb" : "Developer at <a href='http://microsoft.com'>microsoft</a>. Creator of <a href='http://knockoutjs.com'/>knockout.js</a>",
@@ -86,9 +86,9 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "JavaScript Client TBD",
+		"topic" : "JavaScript Client Frameworks, How did we choose?",
 		"abstract" : "",
-		"date" : new Date("2012-09-15T10:40:00Z"),
+		"date" : new Date("2012-09-15T16:45:00Z"),
 		"duration" : 40,
 		"speaker" : {
 			"name" : "Sara Chipps", 
@@ -133,7 +133,7 @@ exports.talks = [
 		"date" : new Date("2012-09-15T16:00:00Z"),
 		"duration" : 40,
 		"speaker" : {
-			"name" : "Corey Donahue", 
+			"name" : "Corey Donohue", 
 			"url" : "http://github.com/atmos",
 			"image" : "atmos.jpg",
 			"blurb" : "Developer at <a href='http://github.com'>github</a>. Author of <a href='http://hubot.github.com'>hubot</a>, <a href='http://atomos.org/cinderella'> cinderella</a> and <a href='http://atomos.org/camo'>camo</camo>",
@@ -151,7 +151,7 @@ exports.talks = [
 		"speaker" : {
 			"name" : "寒冬winter/程劭非", 
 			"url" : "http://github.com/wintercn",
-			"image" : "寒冬winter.jpg",
+			"image" : "winter.jpg",
 			"blurb" : "Developer@<a href='http://snda.com'>SNDA</a>.",
 			"tags" : "China, Node",
 			"should_display" : "true"
@@ -179,7 +179,7 @@ exports.talks = [
 		"speaker" : {
 			"name" : "老赵/赵劼", 
 			"url" : "http://github.com/JeffreyZhao",
-			"image" : "老赵.png",
+			"image" : "JeffreyZhao.png",
 			"blurb" : "Editor @<a href='http://infoq.com'>InfoQ</a>.",
 			"tags" : "China, JavaScript",
 			"should_display" : "true"
@@ -193,7 +193,7 @@ exports.talks = [
 		"speaker" : {
 			"name" : "玉伯也叫射雕/王保平", 
 			"url" : "http://github.com/lifesinger",
-			"image" : "王保平.jpg",
+			"image" : "yubo.jpg",
 			"blurb" : "Developer @<a href='http://alipay.com'>Alipay</a>.",
 			"tags" : "China, JavaScript, Node",
 			"should_display" : "true"
@@ -207,7 +207,7 @@ exports.talks = [
 		"speaker" : {
 			"name" : "小问/甘超阳", 
 			"url" : "http://github.com/iwillwen",
-			"image" : "小问.png",
+			"image" : "iwillwen.png",
 			"blurb" : "Founder @C61 Labs.",
 			"tags" : "China, Node, NoSQL",
 			"should_display" : "true"
@@ -221,7 +221,7 @@ exports.talks = [
 		"speaker" : {
 			"name" : "王达心", 
 			"url" : "http://github.com/freedaxin",
-			"image" : "王达心.png",
+			"image" : "freedaxin.png",
 			"blurb" : "Development engineer at <a href='www.weibo.com'>Sina Weibo</a>",
 			"tags" : "China, Node, MySQL",
 			"should_display" : "true"
@@ -236,7 +236,7 @@ exports.talks = [
 		"speaker" : {
 			"name" : "小型笨蛋/赵成", 
 			"url" : "http://github.com/zcbenz",
-			"image" : "",
+			"image" : "zcbenz.jpg",
 			"blurb" : "Intern at <a href='www.intel.com'>Intel</a>",
 			"tags" : "China, Node, Chromium",
 			"should_display" : "true"
@@ -250,7 +250,7 @@ exports.talks = [
 		"speaker" : {
 			"name" : "圈圈套圈圈", 
 			"url" : "",
-			"image" : "圈圈套圈圈.png",
+			"image" : "xiechengchao.jpg",
 			"blurb" : "Research Institute senior program specialist@<a href = 'http://www.163.com'>netease</a>",
 			"tags" : "China, Node, Chromium",
 			"should_display" : "true"
@@ -271,15 +271,15 @@ exports.talks = [
 		}
 	},	
 	{
-		"topic" : "Node.js TBD",
+		"topic" : "Dashboard-ing your server.",
 		"abstract" : "",
-		"date" : new Date("2012-09-15T16:45:00Z"),
+		"date" : new Date("2012-09-15T10:40:00Z"),
 		"duration" : 40,
 		"speaker" : {
 			"name" : "JeffSu", 
 			"url" : "https://github.com/jeffsu",
 			"image" : "jeffsu.jpg",
-			"blurb" : "Developer@<a href = 'http://www.factual.com'>factual</a>",
+			"blurb" : "Staff Software Engineer @<a href = 'http://www.factual.com'>Factual</a> author of <a href='https://github.com/jeffsu/mochiscript'>Mochiscript</a>",
 			"tags" : "China, Node",
 			"should_display" : "true"
 		}
@@ -292,7 +292,7 @@ exports.talks = [
 		"speaker" : {
 			"name" : "snoopy/吴中骅", 
 			"url" : "",
-			"image" : "snoopy-吴中骅.jpg",
+			"image" : "snoopy.jpg",
 			"blurb" : "Developer@<a href = 'http://www.163.com'>netease</a>",
 			"tags" : "China, Node, REST",
 			"should_display" : "true"
