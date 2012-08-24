@@ -210,7 +210,7 @@ exports.talks = [
 			"name" : "小问/甘超阳", 
 			"url" : "http://github.com/iwillwen",
 			"image" : "iwillwen.png",
-			"blurb" : "Founder @C61 Labs.",
+			"blurb" : "Author of <a href='https://github.com/iwillwen/webjs' target='_blank'>webjs</a> and <a href='http://iwillwen.github.com/NanoDB/' target='_blank'>NanoDB</a>",
 			"tags" : "China, Node.js, Database",
 			"should_display" : "true"
 		}
