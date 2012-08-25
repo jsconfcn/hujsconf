@@ -871,7 +871,9 @@ article.portfolio ul li .info p {
 }
 
 /*map*/
-#map { height: 250px;background:#69c;border-radius:10px }
+#map1 { height: 250px;background:#69c;border-radius:10px }
+#map2 { height: 250px;background:#69c;border-radius:10px }
+
 .accordion { width: 100%;padding:0px }
 .accordion div { background-color: rgba(0,0,0,0.2) }
 .accordion p { font-size: 13px;margin:0px;padding:20px }
