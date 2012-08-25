@@ -1,5 +1,4 @@
 exports.sponsors = [
-
 	{
 		"name": "Microsoft",
 		"url": "http://microsoft.com",
@@ -12,7 +11,7 @@ exports.sponsors = [
 		"url": "http://www.en.kic.net.cn",
 		"image": "kic.png",
 		"blurb": "Provides the space for HuJS ",
-		"description": ""
+		"description": "The Knowledge Innovation Ecosystem is a service network encompassing resource exchange provided by KIC for the Community and its members. Its establishment will pool resources from a wide variety of sources including top-class universities and research institutions, professional associations, alumni associations, venture capital firms at home and abroad, government departments and commercial service institutions."
 	},
 	{
 		"name": "Factual",
@@ -36,6 +35,13 @@ exports.sponsors = [
 		"description": "NetEase, Inc. is a leading China-based Internet technology company that pioneered the development of applications, services and other technologies for the Internet in China. NetEase’s online communities and personalized premium services have established a large and stable user base for the NetEase websites, which are operated by its affiliates. In particular, NetEase provides online game services to Internet users through the in-house development or licensing of massively multi-player online role-playing games, including Fantasy Westward Journey, Westward Journey Online II, Westward Journey Online III, Tianxia III, Heroes of Tang Dynasty, Datang and Ghost, as well as the licensed games, Blizzard Entertainment’s World of Warcraft® and StarCraft® II."
 	},	
 	{
+		"name": "People Squared",
+		"url": "www.people-squared.com",
+		"image": "peoplesquared.png",
+		"blurb": "Provides a venue for the HuJS hackathon",
+		"description": "People Squared is the most popular co-working space in Shanghai for startups and talented individuals to work in a friendly and comfortable environment. There are a number of ways in which this magical space brings people together. From the open layout of the space that encourages communication, to events with VC speakers, and internal lunch & learn informal talks, People Squared constantly facilitate networking to benefit all teams. If you are starting up a business, or freelancing in Shanghai, People Squared is the best environment for you to work."
+	},
+	{
 		"name": "Taobao",
 		"url": "http://taobao.com",
 		"image": "taobao.png",
@@ -47,6 +53,6 @@ exports.sponsors = [
 		"url": "http://telerik.com",
 		"image": "telerik.png",
 		"blurb": "We innovate and don’t imitate.",
-		"description": "Telerik’s mission is to make software development easier and more enjoyable. Our tools for agile project management, collaboration, development and testing allow companies of all sizes to create richer, more stable and aesthetic software faster than ever before."
+		"description": "Telerik’s mission is to make software development easier and more enjoyable. Our tools for agile project management, collaboration, development and testing allow companies of all sizes to create richer, more stable and aesthetic software faster than ever before." 
 	}
 ]
