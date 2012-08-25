@@ -24,7 +24,7 @@ exports.talks = [
 			"name" : "James Halliday", 
 			"url" : "http://github.com/substack",
 			"image" : "substack.jpg",
-			"blurb" : "Unix philosopher, mad scientist, creator of <href='http://github.com/substack/node-browserify'>browserify</a> and many other node.js modules",
+			"blurb" : "Unix philosopher, mad scientist, creator of <href='http://github.com/substack/node-browserify'>browserify</a> and many other Node.js modules",
 			"tags" : "Node.js, International",
 			"should_display" : "true",
 			"language" : "en"
@@ -116,13 +116,13 @@ exports.talks = [
 			"url" : "http://github.com/guille",
 			"image" : "rauchg.png",
 			"blurb" : "CTO and Cofounder @<a href='http://learnboost.com'>Learnboost</a>. Author of <a href='http://socket.io'>socket.io</a>.",
-			"tags" : "Node, Socket.io, International",
+			"tags" : "Node.js, Socket.io, International",
 			"should_display" : "true",
 			"language" : "en"
 		}
 	},
 	{
-		"topic" : "node.js and Microsoft",
+		"topic" : "Node.js and Microsoft",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T14:20:00Z"),
 		"duration" : 30,
@@ -130,7 +130,7 @@ exports.talks = [
 			"name" : "Glenn Block", 
 			"url" : "http://github.com/glennblock",
 			"image" : "gblock.jpg",
-			"blurb" : "Senior Program Manager @<a href='http://www.microsoft.com'>microsoft</a>. Brought node.js to <a href='http://twitter.com/windowsazure'>@windowsazure</a>. All around supporter of OSS",
+			"blurb" : "Senior Program Manager @<a href='http://www.microsoft.com'>microsoft</a>. Brought Node.js to <a href='http://twitter.com/windowsazure'>@windowsazure</a>. All around supporter of OSS",
 			"tags" : "Node.js, Scalability, International",
 			"should_display" : "true",
 			"language" : "en"
@@ -321,7 +321,7 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "Nodejs在朋友网WebIM中的实践",
+		"topic" : "Node.js在朋友网WebIM中的实践",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T18:00:00Z"),
 		"duration" : 30,
