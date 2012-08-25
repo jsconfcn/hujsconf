@@ -159,8 +159,7 @@ exports.talks = [
 		"date" : new Date("2012-09-14T10:00:00Z"),
 		"duration" : 30,
 		"speaker" : {
-			"name" : "寒冬winter/程劭非", 
-			"key": "Wintercn",
+			"name" : "Chengshaofei/寒冬winter/程劭非", 
 			"url" : "http://github.com/wintercn",
 			"image" : "wintercn.jpg",
 			"blurb" : "Developer @<a href='http://snda.com'>SNDA</a>.",
@@ -175,8 +174,7 @@ exports.talks = [
 		"date" : new Date("2012-09-14T10:45:00Z"),
 		"duration" : 40,
 		"speaker" : {
-			"name" : "Python发烧友/苏千",
-			"key" : "Fengmk2", 
+			"name" : "Yuanfeng/Python发烧友/苏千",
 			"url" : "http://github.com/fengmk2",
 			"image" : "fengmk2.png",
 			"blurb" : "Developer @<a href='http://www.taobao.com'>Taobao</a>. A crazy web guy",
@@ -191,8 +189,7 @@ exports.talks = [
 		"date" : new Date("2012-09-14T13:45:00Z"),
 		"duration" : 30,
 		"speaker" : {
-			"name" : "老赵/赵劼",
-			"key" : "Jeffzhao", 
+			"name" : "Zhaojie/老赵/赵劼",
 			"url" : "http://github.com/JeffreyZhao",
 			"image" : "jeffzhao.png",
 			"blurb" : "Editor @<a href='http://www.infoq.com'>InfoQ</a>.",
@@ -207,8 +204,7 @@ exports.talks = [
 		"date" : new Date("2012-09-14T14:20:00Z"),
 		"duration" : 30,
 		"speaker" : {
-			"name" : "玉伯也叫射雕/王保平",
-			"key" : "Lifesinger", 
+			"name" : "Wangbaopin/玉伯也叫射雕/王保平",
 			"url" : "http://github.com/lifesinger",
 			"image" : "lifesinger.jpg",
 			"blurb" : "Developer @<a href='http://alipay.com'>Alipay</a>.",
@@ -223,8 +219,7 @@ exports.talks = [
 		"date" : new Date("2012-09-14T16:45:00Z"),
 		"duration" : 30,
 		"speaker" : {
-			"name" : "小问/甘超阳",
-			"key" : "Iwillwen",
+			"name" : "Ganchaoyang/小问/甘超阳",
 			"url" : "http://github.com/iwillwen",
 			"image" : "iwillwen.png",
 			"blurb" : "Author of <a href='http://github.com/iwillwen/webjs' target='_blank'>webjs</a> and <a href='http://iwillwen.github.com/NanoDB/' target='_blank'>NanoDB</a>",
@@ -239,11 +234,10 @@ exports.talks = [
 		"date" : new Date("2012-09-14T17:20:00Z"),
 		"duration" : 40,
 		"speaker" : {
-			"name" : "王达心",
-			"key" : "Freedaxin", 
+			"name" : "Wangdaxin/王达心",
 			"url" : "http://github.com/freedaxin",
-			"image" : "freedaxin.png",
-			"blurb" : "Development engineer at <a href='http://www.weibo.com'>Sina Weibo</a>",
+			"image" : "freedaxin.jpg",
+			"blurb" : "Development engineer at <a href='http://www.weibo.com'>Sina R&D Center</a>",
 			"tags" : "China, Node.js, Database",
 			"should_display" : "true",
 			"language" : "cn"
@@ -256,8 +250,7 @@ exports.talks = [
 		"date" : new Date("2012-09-15T09:45:00Z"),
 		"duration" : 40,
 		"speaker" : {
-			"name" : "小型笨蛋/赵成",
-			"key" : "Zcbenz", 
+			"name" : "Zaocheng/小型笨蛋/赵成",
 			"url" : "http://github.com/zcbenz",
 			"image" : "zcbenz.jpg",
 			"blurb" : "Intern at <a href='http://www.intel.com'>Intel</a>",
@@ -272,8 +265,7 @@ exports.talks = [
 		"date" : new Date("2012-09-15T11:25:00Z"),
 		"duration" : 35,
 		"speaker" : {
-			"name" : "谢骋超/圈圈套圈圈",
-			"key" : "Xiechengchao", 
+			"name" : "Xiechengzhao/谢骋超/圈圈套圈圈",
 			"url" : "",
 			"image" : "xiechengchao.jpg",
 			"blurb" : "Research Institute senior program specialist @<a href = 'http://www.163.com'>netease</a>",
@@ -288,8 +280,7 @@ exports.talks = [
 		"date" : new Date("2012-09-15T13:45:00Z"),
 		"duration" : 30,
 		"speaker" : {
-			"name" : "朋春/张轩丞", 
-			"key" : "Aleafs",
+			"name" : "Pengchun/朋春/张轩丞", 
 			"url" : "http://github.com/aleafs",
 			"image" : "aleafs.jpg",
 			"blurb" : "Developer@<a href = 'http://www.taobao.com'>tabao</a>",
@@ -319,16 +310,32 @@ exports.talks = [
 		"date" : new Date("2012-09-15T17:30:00Z"),
 		"duration" : 30,
 		"speaker" : {
-			"name" : "snoopy/吴中骅", 
-			"key" : "Snoopy",
+			"name" : "Wuzhonghua/snoopy/吴中骅", 
+			"key" : "Wuzhonghua",
 			"url" : "http://github.com/DoubleSpout",
 			"image" : "doublespout.jpg",
-			"blurb" : "Developer @<a href = 'http://www.163.com'>netease</a>",
+			"blurb" : "Creator of rrestjs",
 			"tags" : "China, Node.js, REST",
 			"should_display" : "true",
 			"language" : "cn"
 		}
 	},
+	{
+		"topic" : "Nodejs在朋友网WebIM中的实践",
+		"abstract" : "",
+		"date" : new Date("2012-09-15T18:00:00Z"),
+		"duration" : 30,
+		"speaker" : {
+			"name" : "Huangyoukun/黄友昆", 
+			"url" : "",
+			"image" : "huangyoukun.jpg",
+			"blurb" : "	Developer@<a href = 'http://www.pengyou.com'>Tencent Pengyou</a>",
+			"tags" : "China, Node.js, Erlang, Native Addons",
+			"should_display" : "true",
+			"language" : "cn"
+		}
+	},
+
 	/* non speaking schedule items */
 	{
 		"topic" : "Morning Announcements",
@@ -387,7 +394,7 @@ exports.talks = [
 	{
 		"topic" : "After Party Announcements",
 		"abstract" : "A brief announcement about the evening events that will going on after the conference.",
-		"date" : new Date("2012-09-15T18:00:00Z"),
+		"date" : new Date("2012-09-15T18:30:00Z"),
 		"duration" : 10
 	},
 	{

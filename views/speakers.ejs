@@ -16,16 +16,9 @@
                                 return 1;
 
                             var xspeaker, yspeaker;
-
-                            if (x.speaker.language === "cn")
-                                xspeaker = x.speaker.key;
-                            else
-                                xspeaker = x.speaker.name;
- 
-                            if (y.speaker.language === "cn")
-                                yspeaker = y.speaker.key;
-                            else
-                                yspeaker = y.speaker.name;
+                            
+                            xspeaker = x.speaker.name;
+                            yspeaker = y.speaker.name;
 
                             if (xspeaker === yspeaker) 
                                 return 0
