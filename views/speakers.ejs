@@ -1,4 +1,4 @@
-    <section id="speakers" class="container light pal2">
+     <section id="speakers" class="container light pal2">
         <div class="content">
             <div class="title">
                 <h1>Speakers <span>res.render('presentation')</span></h1>
@@ -15,8 +15,10 @@
                             else if (y.speaker == undefined)
                                 return 1;
 
-                            var xspeaker = x.date;
-                            var yspeaker = y.date;
+                            var xspeaker, yspeaker;
+                            
+                            xspeaker = x.speaker.name;
+                            yspeaker = y.speaker.name;
 
                             if (xspeaker === yspeaker) 
                                 return 0

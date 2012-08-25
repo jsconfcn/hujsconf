@@ -28,12 +28,12 @@
         </script>
 
     <script type="text/javascript">
-     var map = new GMaps({
-          div: '#map',
+     var map1 = new GMaps({
+          div: '#map1',
           lat: 31.305413,
           lng: 121.513571
         });
-     map.addMarker({
+     map1.addMarker({
           lat: 31.305413,
           lng: 121.513571,
           title: 'Knowledge and Innovation Center',
@@ -41,6 +41,23 @@
               content: '<div class="light"><p><h3>Knowledge and Innovation Center</h3></p><p class="light">234号 Songhu Road<br/>Yangpu, Shanghai, China<br/>021-65500808<br/><a target="_blank" href="http://www.kic.net.cn">kic.net.cn</a>‎<br/></p></div>'
             }
         });
+
+     var map2 = new GMaps({
+          div: '#map2',
+          lat: 31.23328,
+          lng: 121.439019
+        });
+
+     map2.addMarker({
+          lat: 31.23328,
+          lng: 121.439019,
+          title: 'People Squared Yanping Attic',
+          infoWindow: {
+              content: '<div class="light"><p><h3>People Squared Yanping Attic</h3></p><p class="light">900号 Chang Ping Lu<br/>Jing An Qu, Shanghai, China<br/><a target="_blank" href="http://www.people-squared.com/place/yanpingattic">www.people-squared.com/place/yanpingattic</a>‎<br/></p></div>'
+            }
+        });
+
+
     </script>
     
     <script type="text/javascript">
