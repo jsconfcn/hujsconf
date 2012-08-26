@@ -24,7 +24,7 @@ exports.talks = [
 			"name" : "James Halliday", 
 			"url" : "http://github.com/substack",
 			"image" : "substack.jpg",
-			"blurb" : "Unix philosopher, mad scientist, creator of <href='http://github.com/substack/node-browserify'>browserify</a> and many other node.js modules",
+			"blurb" : "Unix philosopher, mad scientist, creator of <href='http://github.com/substack/node-browserify'>browserify</a> and many other Node.js modules",
 			"tags" : "Node.js, International",
 			"should_display" : "true",
 			"language" : "en"
@@ -39,7 +39,7 @@ exports.talks = [
 			"name" : "Vicent Marti", 
 			"url" : "http://github.com/vmg",
 			"image" : "vmg.jpg",
-			"blurb" : "Fancy pants, Systems engineer@<a href='http://github.com'>github</a>.",
+			"blurb" : "Fancy pants, Systems engineer @<a href='http://github.com'>github</a>.",
 			"tags" : "Node.js, International",
 			"should_display" : "true",
 			"language" : "en"
@@ -85,7 +85,7 @@ exports.talks = [
 			"name" : "Steve Sanderson", 
 			"url" : "http://github.com/stevesanderson",
 			"image" : "stevensanderson.jpg",
-			"blurb" : "Developer at <a href='http://www.microsoft.com'>microsoft</a>. Creator of <a href='http://knockoutjs.com'/>knockout.js</a>",
+			"blurb" : "Developer @<a href='http://www.microsoft.com'>microsoft</a>. Creator of <a href='http://knockoutjs.com'/>knockout.js</a>",
 			"tags" : "International, JavaScript",
 			"should_display" : "true",
 			"language" : "en"
@@ -116,13 +116,13 @@ exports.talks = [
 			"url" : "http://github.com/guille",
 			"image" : "rauchg.png",
 			"blurb" : "CTO and Cofounder @<a href='http://learnboost.com'>Learnboost</a>. Author of <a href='http://socket.io'>socket.io</a>.",
-			"tags" : "Node, Socket.io, International",
+			"tags" : "Node.js, Socket.io, International",
 			"should_display" : "true",
 			"language" : "en"
 		}
 	},
 	{
-		"topic" : "node.js and Microsoft",
+		"topic" : "Node.js and Microsoft",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T14:20:00Z"),
 		"duration" : 30,
@@ -130,7 +130,7 @@ exports.talks = [
 			"name" : "Glenn Block", 
 			"url" : "http://github.com/glennblock",
 			"image" : "gblock.jpg",
-			"blurb" : "Senior Program Manager @<a href='http://www.microsoft.com'>microsoft</a>. Brought node.js to <a href='http://twitter.com/windowsazure'>@windowsazure</a>. All around supporter of OSS",
+			"blurb" : "Senior Program Manager @<a href='http://www.microsoft.com'>microsoft</a>. Brought Node.js to <a href='http://twitter.com/windowsazure'>@windowsazure</a>. All around supporter of OSS",
 			"tags" : "Node.js, Scalability, International",
 			"should_display" : "true",
 			"language" : "en"
@@ -145,7 +145,7 @@ exports.talks = [
 			"name" : "Corey Donohue", 
 			"url" : "http://github.com/atmos",
 			"image" : "atmos.jpg",
-			"blurb" : "Developer at <a href='http://github.com'>github</a>. Author of <a href='http://hubot.github.com'>hubot</a>, <a href='http://atomos.org/cinderella'> cinderella</a> and <a href='http://atomos.org/camo'>camo</camo>",
+			"blurb" : "Developer @<a href='http://github.com'>github</a>. Author of <a href='http://hubot.github.com'>hubot</a>, <a href='http://atomos.org/cinderella'> cinderella</a> and <a href='http://atomos.org/camo'>camo</camo>",
 			"tags" : "Node.js, International",
 			"should_display" : "true",
 			"language" : "en"
@@ -253,7 +253,7 @@ exports.talks = [
 			"name" : "Zaocheng/小型笨蛋/赵成",
 			"url" : "http://github.com/zcbenz",
 			"image" : "zcbenz.jpg",
-			"blurb" : "Intern at <a href='http://www.intel.com'>Intel</a>",
+			"blurb" : "Intern @<a href='http://www.intel.com'>Intel</a>",
 			"tags" : "China, Node.js",
 			"should_display" : "true",
 			"language" : "cn"
@@ -321,7 +321,7 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "Nodejs在朋友网WebIM中的实践",
+		"topic" : "Node.js在朋友网WebIM中的实践",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T18:00:00Z"),
 		"duration" : 30,
@@ -329,7 +329,7 @@ exports.talks = [
 			"name" : "Huangyoukun/黄友昆", 
 			"url" : "",
 			"image" : "huangyoukun.jpg",
-			"blurb" : "	Developer@<a href = 'http://www.pengyou.com'>Tencent Pengyou</a>",
+			"blurb" : "	Developer @<a href = 'http://www.pengyou.com'>Tencent Pengyou</a>",
 			"tags" : "China, Node.js, Erlang, Native Addons",
 			"should_display" : "true",
 			"language" : "cn"
