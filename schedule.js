@@ -283,7 +283,7 @@ exports.talks = [
 			"name" : "Pengchun/朋春/张轩丞", 
 			"url" : "http://github.com/aleafs",
 			"image" : "aleafs.jpg",
-			"blurb" : "Developer@<a href = 'http://www.taobao.com'>tabao</a>",
+			"blurb" : "Developer@<a href = 'http://www.taobao.com'>taobao</a>",
 			"tags" : "China, Node.js, Performance, Scalability",
 			"should_display" : "true",
 			"language" : "cn"
