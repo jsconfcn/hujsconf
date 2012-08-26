@@ -418,7 +418,7 @@ exports.talks = [
 	{
 		"topic" : "Hackthon",
 		"location" : "hackerspace",
-		"abstract" : "A day long hackathon at the hackerspace. No need to register for the conference to attend this part of the event.",
+		"abstract" : "A day long hackathon at People Squared Yangping Attic. No need to register for the conference to attend this part of the event.",
 		"date" : new Date("2012-09-16T09:00:00Z"),
 		"duration" : 180
 	},
