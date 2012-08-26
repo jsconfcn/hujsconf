@@ -417,22 +417,22 @@ exports.talks = [
 	},
 	{
 		"topic" : "Hackthon",
-		"location" : "hackerspace",
+		"location" : "Yangping Attic",
 		"abstract" : "A day long hackathon at People Squared Yangping Attic. No need to register for the conference to attend this part of the event.",
 		"date" : new Date("2012-09-16T09:00:00Z"),
 		"duration" : 180
 	},
 	{
 		"topic" : "Lunch Break",
-		"location" : "hackerspace",
+		"location" : "Yangping Attic",
 		"abstract" : "Long lunch break. Go try one of the great nearby restaurants!",
 		"date" : new Date("2012-09-16T12:00:00Z"),
 		"duration" : 90
 	},
 	{
 		"topic" : "Hackthon",
-		"location" : "hackerspace",
-		"abstract" : "A day long hackathon at the hackerspace. No need to register for the conference to attend this part of the event.",
+		"location" : "Yangping Attic",
+		"abstract" : "A day long hackathon at People Squared Yanging Attic. No need to register for the conference to attend this part of the event.",
 		"date" : new Date("2012-09-16T13:30:00Z"),
 		"duration" : 270
 	}
