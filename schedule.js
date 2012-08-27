@@ -250,10 +250,10 @@ exports.talks = [
 		"date" : new Date("2012-09-15T09:45:00Z"),
 		"duration" : 40,
 		"speaker" : {
-			"name" : "Zaocheng/小型笨蛋/赵成",
+			"name" : "Zhaocheng/小型笨蛋/赵成",
 			"url" : "http://github.com/zcbenz",
 			"image" : "zcbenz.jpg",
-			"blurb" : "Intern @<a href='http://www.intel.com'>Intel</a>",
+			"blurb" : "Intern @<a href='http://www.intel.com'>Intel</a>, developer of node-webkit",
 			"tags" : "China, Node.js",
 			"should_display" : "true",
 			"language" : "cn"
