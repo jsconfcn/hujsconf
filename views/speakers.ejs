@@ -32,7 +32,7 @@
                     <%  var speaker = talk.speaker; %>
                     <%  if(speaker && speaker.should_display) { %>
                         <li data-tags="<%= speaker.tags %>"><div align="center" class="thumb"><a href="<%=speaker.url%>"><img src="images/speaker/<%= speaker.image%>" alt="<%=speaker.name%>" /></a></div>
-                            <div class="info"><h3><%=speaker.name%> <span><a href="<%=speaker.url%>" target="_blank"><%=speaker.url.replace(/http:\/\/github.com\/(.+)/, "@$1")%></a></span></h3><p><%- speaker.blurb%></p></div>
+                            <div class="info"><h3><%=speaker.name%> <span><a href="<%=speaker.url%>" target="_blank"><%=speaker.url.replace(/http:\/\/.+\/(.+)/, "@$1")%></a></span></h3><p><%- speaker.blurb%></p></div>
                         </li>
                     <%      } %>
                     <%  } %>
