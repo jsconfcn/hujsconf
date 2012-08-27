@@ -338,7 +338,7 @@ exports.talks = [
 	{
 		"topic" : "new app('Windows 8');",
 		"abstract" : "",
-		"date" : new Date("2012-09-14T18:00:00Z"),
+		"date" : new Date("2012-09-15T18:00:00Z"),
 		"duration" : 30,
 		"speaker" : {
 			"name" : "Aiken Qi", 
@@ -410,6 +410,12 @@ exports.talks = [
 		"abstract" : "A brief announcement about the evening events that will going on after the conference.",
 		"date" : new Date("2012-09-15T18:30:00Z"),
 		"duration" : 10
+	},
+	{
+		"topic" : "Party hosted by Factual!",
+		"abstract" : "",
+		"date" : new Date("2012-09-15T19:30:00Z"),
+		"duration" : 240
 	},
 	{
 		"topic" : "Hackthon",
