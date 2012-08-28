@@ -68,5 +68,12 @@ exports.sponsors = [
 		"image": "headin.jpg",
 		"blurb": "Leading Intellectual Service and Innovation Platform",
 		"description": "Our vision: to provide world-class enterprise customers, the intellectual resources of the way of the Internet platform and overall service, enhance the twinkling of an eye the opportunity to grasp the key competencies, organizational flexibility and risk response."
-	}	
+	},
+	{
+		"name": "Turing Book Company",
+		"url": "http://ituring.com.cn",
+		"image": "turing.gif",
+		"blurb": "Standing on the shoulders of giants",
+		"description": "Turing Book Company is dedicated in translating and publishing the best books worldwide of IT industry. We have an open mind towards knowledge spreading, and we are ready to embrace the era of electronic publishing."
+	}
 ]
