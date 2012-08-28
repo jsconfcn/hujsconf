@@ -33,7 +33,45 @@
                     </ul>
                     <a href="http://www.headin.cn/Themes/Activity/Details?activityId=5038448b869d081bf0d972b3" class="subbutton">Purchase Tickets</a>
                 </div>
-
+                <div class="column-half">
+                    <ul class="list">
+                    <h3>Twitter</h3>
+                    <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+                    <script>
+                        new TWTR.Widget({
+                          version: 2,
+                          type: 'search',
+                          search: '#hujs OR #沪JS OR 沪JS OR @hujsconf OR hujs.org OR jsconf.cn',
+                          interval: 30000,
+                          title: '',
+                          subject: '',
+                          width: 'auto',
+                          height: 300,
+                          creator: true,
+                          theme: {
+                            shell: {
+                                background: 'transparent',
+                              color: 'white',
+                              display: 'none'
+                            },
+                            tweets: {
+                              background: 'transparent',
+                              color: 'white',
+                              links: 'orange'
+                            }
+                          },
+                          features: {
+                            scrollbar: true,
+                            loop: true,
+                            live: true,
+                            behavior: 'all'
+                          }
+                        }).render().start();
+                    </script>
+                    </ul>
+                </div>
+            </div>
+            <div class="full">
                 <div class="column-half">
                     <ul class="list">
                         <h3>Main Event + Hackathon</h3>
@@ -43,6 +81,8 @@
                         </ul>
                         <div id="map1"></div>
                     </ul>
+                </div>
+                <div class="column-half last">
                     <ul class="list">
                         <h3>Hackathon (Sunday only)</h3>
                         <ul class="address">

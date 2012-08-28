@@ -10,7 +10,7 @@ exports.talks = [
 			"url" : "http://github.com/thoward",
 			"image" : "thoward37.jpg",
 			"blurb" : "Developer at <a href='http://appfog.com'>AppFog</a>. Organizer of NodePDX and HuJS",
-			"tags" : "International, Node.js",
+			"tags" : "International, JavaScript",
 			"should_display" : "true",
 			"language" : "en"
 		}
@@ -253,7 +253,7 @@ exports.talks = [
 			"url" : "",
 			"image" : "huangyoukun.jpg",
 			"blurb" : "	Developer @<a href = 'http://www.pengyou.com'>Tencent Pengyou</a>",
-			"tags" : "China, Node.js, Erlang, Native Addons",
+			"tags" : "China, Node.js, Erlang",
 			"should_display" : "true",
 			"language" : "cn"
 		}
@@ -345,7 +345,7 @@ exports.talks = [
 			"url" : "http://www.weibo.com/aiken11",
 			"image" : "aikenqi.jpg",
 			"blurb" : "Technical Evangelist @<a href='http://www.microsoft.com'/>Microsoft</a>",
-			"tags" : "ClientJS, Windows 8",
+			"tags" : "China, JavaScript, Windows&nbsp;8",
 			"should_display" : "true",
 			"language" : "cn"
 		}

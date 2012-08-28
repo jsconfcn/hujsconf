@@ -47,7 +47,7 @@ $(document).ready(function () {
             tags = elem.data('tags').split(',');
         elem.attr('data-id', i);
         $.each(tags, function (key, value) {
-            value = $.trim(value);
+            value = $.trim(value).toLowerCase();
             if (!(value in itemsByTags)) {
                 itemsByTags[value] = [];
             }
@@ -55,6 +55,13 @@ $(document).ready(function () {
         });
     });
     createList('Everything', items);
+
+    // added to ensure early ordering of this tags
+    specialCaseAdd('international', itemsByTags)
+    specialCaseAdd('china', itemsByTags)
+    specialCaseAdd('javascript', itemsByTags)
+    specialCaseAdd('node.js', itemsByTags)
+    
     $.each(itemsByTags, function (k, v) {
         createList(k, v);
     });
@@ -65,6 +72,13 @@ $(document).ready(function () {
         e.preventDefault();
     });
     $('#filter a:first').click();
+
+    function specialCaseAdd(text, items) { 
+        if(text in items) { 
+            createList(text, items[text]);
+            delete items[text];
+        }
+    }
 
     function createList(text, items) {
         var ul = $('<ul>', {
@@ -81,34 +95,6 @@ $(document).ready(function () {
                 list: ul
             }
         }).appendTo('#filter');
-    }
-});
-$(document).ready(function () {
-    $.jribbble.getShotById(593138, function (shot) {
-        var html = [];
-        $('#shotById a:first').attr('href', shot.url);
-        $('#shotById img').attr('src', shot.image_url);
-        $('#shotById h3').text(shot.title);
-        $('#shotById h4').html('by <a href="' + shot.player.url + '">' + shot.player.name + '</a>');
-    });
-});
-$(document).ready(function () {
-    $.getJSON("http://api.flickr.com/services/feeds/photoset.gne?set=72157622238654647&nsid=52821721@N00&format=json&jsoncallback=?", displayImages);
-
-    function displayImages(data) {
-        var iStart = Math.floor(Math.random() * (0));
-        var iCount = 0;
-        var htmlString = "<ul>";
-        $.each(data.items, function (i, item) {
-            if (iCount > iStart && iCount < (iStart + 7)) {
-                var sourceSquare = (item.media.m).replace("_m.jpg", "_s.jpg");
-                htmlString += '<li><a href="' + item.link + '" target="_blank">';
-                htmlString += '<img src="' + sourceSquare + '" alt="' + item.title + '" title="' + item.title + '"/>';
-                htmlString += '</a></li>';
-            }
-            iCount++;
-        });
-        $('#flickr').html(htmlString + "</ul>");
     }
 });
 jQuery(function ($) {
