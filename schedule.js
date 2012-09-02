@@ -122,7 +122,7 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "Node.js and Microsoft",
+		"topic" : "The secrets of Node revealed on Windows and Azure",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T14:20:00Z"),
 		"duration" : 30,
