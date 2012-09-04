@@ -107,16 +107,16 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "From Wiredcraft - To be announced",
+		"topic" : "Networking the Humanitarian Space with Javascript",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T13:00:00Z"),
 		"duration" : 30,
 		"speaker" : {
-			"name" : "TBD", 
-			"url" : "TBD",
-			"image" : "",
-			"blurb" : "",
-			"tags" : "Node.js",
+			"name" : "Makara Wang and Ronan Burder", 
+			"url" : "http://github.com/makara",
+			"image" : "ronan_makara.png",
+			"blurb" : "Makara is CTO@<a href='http://www.wiredcraf.com'>Wiredcraft</a>. Ronan is Founder / Managing Director of Wirdecraft. Both are passionate about OSS",
+			"tags" : "Node.js, JavaScript",
 			"should_display" : "true",
 			"language" : "en"
 		}
