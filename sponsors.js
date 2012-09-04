@@ -22,7 +22,7 @@ exports.sponsors = [
 	},
 	{
 		"name": "Factual",
-		"url": "http://factual.com",
+		"url": "http://www.factual.com",
 		"image": "factual.png",
 		"blurb": "Definitive Global Data. Fast, Rich APIs.",
 		"description": "Factual is an open data platform for application developers that leverages large-scale data aggregation and community exchange. Our focus is on making data more accessible (i.e. cheaper, higher quality, less encumbered) for machines and developers, to drive and accelerate innovation in an unprecedented way."
