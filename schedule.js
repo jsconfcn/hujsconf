@@ -107,10 +107,25 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "Engine.io",
+		"topic" : "From Wiredcraft - To be announced",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T13:00:00Z"),
-		"duration" : 40,
+		"duration" : 30,
+		"speaker" : {
+			"name" : "TBD", 
+			"url" : "TBD",
+			"image" : "",
+			"blurb" : "",
+			"tags" : "Node.js",
+			"should_display" : "true",
+			"language" : "en"
+		}
+	},
+	{
+		"topic" : "A realtime world: HTML5 WebSockets, Engine.IO, Socket.IO 1.0, SPDY & Beyond",
+		"abstract" : "",
+		"date" : new Date("2012-09-15T13:30:00Z"),
+		"duration" : 30,
 		"speaker" : {
 			"name" : "Guillermo Rauch", 
 			"url" : "http://github.com/guille",
