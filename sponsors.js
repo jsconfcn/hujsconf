@@ -75,5 +75,12 @@ exports.sponsors = [
 		"image": "turing.gif",
 		"blurb": "Standing on the shoulders of giants",
 		"description": "Turing Book Company is dedicated in translating and publishing the best books worldwide of IT industry. We have an open mind towards knowledge spreading, and we are ready to embrace the era of electronic publishing."
+	},
+	{
+		"name": "Broadview",
+		"url": "http://broadview.com.cn",
+		"image": "broadview.png",
+		"blurb":"Turning Stones To Gold",
+		"description":"Broadview is a knowledge-oriented IT Publisher. We are devoted to publish the best IT books worldwide. The missions of us are planning fabulous IT title and dissemination of perfect knowledge. While we are much more than a publisher, because we also serving people related information and knowledge services. Broadview was founded in 1993, we have gone through nine years of pioneering and exploration, now, we are more experienced."
 	}
 ]
