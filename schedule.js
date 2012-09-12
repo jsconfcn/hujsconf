@@ -112,7 +112,7 @@ exports.talks = [
 		"date" : new Date("2012-09-15T13:00:00Z"),
 		"duration" : 30,
 		"speaker" : {
-			"name" : "Makara Wang and Ronan Burder", 
+			"name" : "Makara Wang and Ronan Berder", 
 			"url" : "http://github.com/makara",
 			"image" : "ronan_makara.png",
 			"blurb" : "Makara is CTO@<a href='http://www.wiredcraf.com'>Wiredcraft</a>. Ronan is Founder / Managing Director of Wirdecraft. Both are passionate about OSS",
