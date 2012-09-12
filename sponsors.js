@@ -70,6 +70,20 @@ exports.sponsors = [
 		"description": "Our vision: to provide world-class enterprise customers, the intellectual resources of the way of the Internet platform and overall service, enhance the twinkling of an eye the opportunity to grasp the key competencies, organizational flexibility and risk response."
 	},
 	{
+		"name": "Infragistics",
+		"url": "http://www.infragistics.com/",
+		"image": "infragistics.jpg",
+		"blurb": "Design. Develop. Experience",
+		"description": "Infragistics is a global software company whose products and services enable users to deliver awesome user experiences. Focusing on high performance grids and data visualization, our toolsets empower developers to create their best applications no matter what platform."
+	},
+	{
+		"name": "JetBrains",
+		"url": "http://jetbrains.com",
+		"image": "jetbrains.jpg",
+		"blurb": "Develop with Pleasure!",
+		"description": "At JetBrains, we have a passion for making people more productive through smart software solutions that help them focus more on what they really want to accomplish, and less on mundane, repetitive 'computer busy work'"
+	},
+	{
 		"name": "Turing Book Company",
 		"url": "http://ituring.com.cn",
 		"image": "turing.gif",
