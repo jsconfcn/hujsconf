@@ -64,7 +64,7 @@
                 <% var talks = filterSchedule(schedule, "2012-09-16T00:00:00Z") %>
                 <% for(var key in talks) { %>
                 <%  var talk = talks[key]; %>
-                <%  if (!talk.location || talk.location != "hackerspace") { %>
+                <%  if (!talk.location || talk.location != "Yangping Attic") { %>
                     <a>
                         <span class="time">
                         <%= talk.start_time %>-<%= talk.end_time%>
@@ -83,12 +83,12 @@
             </div>
         </div>
         <div class="column-half">
-            <h3>At Hackerspace</h3>
+            <h3>At People Squared Yangping Attic</h3>
             <div class="accordion" id="schedule4">
                 <% var talks = filterSchedule(schedule, "2012-09-16T00:00:00Z") %>
                 <% for(var key in talks) { %>
                 <%  var talk = talks[key]; %>
-                <%  if (talk.location && talk.location == "hackerspace") { %>
+                <%  if (talk.location && talk.location == "Yangping Attic") { %>
                     <a>
                         <span class="time">
                         <%= talk.start_time %>-<%= talk.end_time%>

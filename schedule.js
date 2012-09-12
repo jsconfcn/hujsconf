@@ -10,7 +10,7 @@ exports.talks = [
 			"url" : "http://github.com/thoward",
 			"image" : "thoward37.jpg",
 			"blurb" : "Developer at <a href='http://appfog.com'>AppFog</a>. Organizer of NodePDX and HuJS",
-			"tags" : "International, Node.js",
+			"tags" : "International, JavaScript",
 			"should_display" : "true",
 			"language" : "en"
 		}
@@ -107,10 +107,25 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "Engine.io",
+		"topic" : "Networking the Humanitarian Space with Javascript",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T13:00:00Z"),
-		"duration" : 40,
+		"duration" : 30,
+		"speaker" : {
+			"name" : "Makara Wang and Ronan Burder", 
+			"url" : "http://github.com/makara",
+			"image" : "ronan_makara.png",
+			"blurb" : "Makara is CTO@<a href='http://www.wiredcraf.com'>Wiredcraft</a>. Ronan is Founder / Managing Director of Wirdecraft. Both are passionate about OSS",
+			"tags" : "Node.js, JavaScript",
+			"should_display" : "true",
+			"language" : "en"
+		}
+	},
+	{
+		"topic" : "A realtime world: HTML5 WebSockets, Engine.IO, Socket.IO 1.0, SPDY & Beyond",
+		"abstract" : "",
+		"date" : new Date("2012-09-15T13:30:00Z"),
+		"duration" : 30,
 		"speaker" : {
 			"name" : "Guillermo Rauch", 
 			"url" : "http://github.com/guille",
@@ -122,7 +137,7 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "Node.js and Microsoft",
+		"topic" : "The secrets of Node revealed on Windows and Azure",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T14:20:00Z"),
 		"duration" : 30,
@@ -243,6 +258,21 @@ exports.talks = [
 			"language" : "cn"
 		}
 	},
+	{
+		"topic" : "Node.js在朋友网WebIM中的实践",
+		"abstract" : "",
+		"date" : new Date("2012-09-14T18:00:00Z"),
+		"duration" : 30,
+		"speaker" : {
+			"name" : "Huangyoukun/黄友昆", 
+			"url" : "",
+			"image" : "huangyoukun.jpg",
+			"blurb" : "	Developer @<a href = 'http://www.pengyou.com'>Tencent Pengyou</a>",
+			"tags" : "China, Node.js, Erlang",
+			"should_display" : "true",
+			"language" : "cn"
+		}
+	},
 	/* Day 2 */
 	{
 		"topic" : "基于Chromium和Node.js的桌面应用Runtime",
@@ -250,10 +280,10 @@ exports.talks = [
 		"date" : new Date("2012-09-15T09:45:00Z"),
 		"duration" : 40,
 		"speaker" : {
-			"name" : "Zaocheng/小型笨蛋/赵成",
+			"name" : "Zhaocheng/小型笨蛋/赵成",
 			"url" : "http://github.com/zcbenz",
 			"image" : "zcbenz.jpg",
-			"blurb" : "Intern @<a href='http://www.intel.com'>Intel</a>",
+			"blurb" : "Intern @<a href='http://www.intel.com'>Intel</a>, developer of node-webkit",
 			"tags" : "China, Node.js",
 			"should_display" : "true",
 			"language" : "cn"
@@ -283,7 +313,7 @@ exports.talks = [
 			"name" : "Pengchun/朋春/张轩丞", 
 			"url" : "http://github.com/aleafs",
 			"image" : "aleafs.jpg",
-			"blurb" : "Developer @<a href = 'http://www.taobao.com'>taobao</a>",
+			"blurb" : "Developer@<a href = 'http://www.taobao.com'>taobao</a>",
 			"tags" : "China, Node.js, Performance, Scalability",
 			"should_display" : "true",
 			"language" : "cn"
@@ -321,21 +351,20 @@ exports.talks = [
 		}
 	},
 	{
-		"topic" : "Node.js在朋友网WebIM中的实践",
+		"topic" : "new app('Windows 8');",
 		"abstract" : "",
 		"date" : new Date("2012-09-15T18:00:00Z"),
 		"duration" : 30,
 		"speaker" : {
-			"name" : "Huangyoukun/黄友昆", 
-			"url" : "",
-			"image" : "huangyoukun.jpg",
-			"blurb" : "	Developer @<a href = 'http://www.pengyou.com'>Tencent Pengyou</a>",
-			"tags" : "China, Node.js, Erlang, Native Addons",
+			"name" : "Aiken Qi", 
+			"url" : "http://www.weibo.com/aiken11",
+			"image" : "aikenqi.jpg",
+			"blurb" : "Technical Evangelist @<a href='http://www.microsoft.com'/>Microsoft</a>",
+			"tags" : "China, JavaScript, Windows&nbsp;8",
 			"should_display" : "true",
 			"language" : "cn"
 		}
 	},
-
 	/* non speaking schedule items */
 	{
 		"topic" : "Morning Announcements",
@@ -364,7 +393,7 @@ exports.talks = [
 	{
 		"topic" : "After Party Announcements",
 		"abstract" : "A brief announcement about the evening events that will going on after the conference.",
-		"date" : new Date("2012-09-14T18:00:00Z"),
+		"date" : new Date("2012-09-14T18:30:00Z"),
 		"duration" : 10
 	},
 	{
@@ -398,6 +427,12 @@ exports.talks = [
 		"duration" : 10
 	},
 	{
+		"topic" : "Party hosted by Factual!",
+		"abstract" : "",
+		"date" : new Date("2012-09-15T19:30:00Z"),
+		"duration" : 240
+	},
+	{
 		"topic" : "Hackthon",
 		"abstract" : "A day long hackathon at KIC. This session is only open to those who registered for the full event.",
 		"date" : new Date("2012-09-16T09:00:00Z"),
@@ -417,22 +452,22 @@ exports.talks = [
 	},
 	{
 		"topic" : "Hackthon",
-		"location" : "hackerspace",
-		"abstract" : "A day long hackathon at the hackerspace. No need to register for the conference to attend this part of the event.",
+		"location" : "Yangping Attic",
+		"abstract" : "A day long hackathon at People Squared Yangping Attic. No need to register for the conference to attend this part of the event.",
 		"date" : new Date("2012-09-16T09:00:00Z"),
 		"duration" : 180
 	},
 	{
 		"topic" : "Lunch Break",
-		"location" : "hackerspace",
+		"location" : "Yangping Attic",
 		"abstract" : "Long lunch break. Go try one of the great nearby restaurants!",
 		"date" : new Date("2012-09-16T12:00:00Z"),
 		"duration" : 90
 	},
 	{
 		"topic" : "Hackthon",
-		"location" : "hackerspace",
-		"abstract" : "A day long hackathon at the hackerspace. No need to register for the conference to attend this part of the event.",
+		"location" : "Yangping Attic",
+		"abstract" : "A day long hackathon at People Squared Yanging Attic. No need to register for the conference to attend this part of the event.",
 		"date" : new Date("2012-09-16T13:30:00Z"),
 		"duration" : 270
 	}

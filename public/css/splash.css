@@ -144,8 +144,8 @@ span.twitter { margin: 0 auto;display:block;width:60px;height:60px;overflow:hidd
 
 /* contact */
 #contact ul li {
-    width: 210px;
-    height: 270px;
+    width: 180px;
+    height: 320px;
     float: left;
     margin: 0px 20px 20px 0px;
     background-color: #fff;
@@ -153,12 +153,12 @@ span.twitter { margin: 0 auto;display:block;width:60px;height:60px;overflow:hidd
     padding: 0px;
 }
 #contact ul li .thumb {
-    width: 210px;
-    height: 200px;
+    width: 180px;
+    height: auto;
     overflow: hidden;
 }
 #contact ul li img {
-    height: 200px;
+    height: 180px;
     margin: 0px 0px;
     -webkit-transition-duration: .4s;
     -moz-transition-duration: .4s;
@@ -176,12 +176,12 @@ span.twitter { margin: 0 auto;display:block;width:60px;height:60px;overflow:hidd
 }
 #contact ul li .info {
     padding: 10px 10px;
-    width: 200px;
+    width: 180px;
 }
 #contact ul li .info h3 {
     font-family: 'Open Sans',sans-serif;
     text-transform: uppercase;
-    text-align: center;
+    /*text-align: center;*/
     font-size: 11px;
     line-height: 16px;
     color: #424242;
@@ -191,7 +191,7 @@ span.twitter { margin: 0 auto;display:block;width:60px;height:60px;overflow:hidd
     font-size: 11px;
     text-transform: lowercase;
     font-style: italic;
-    text-align: center;
+    /*text-align: center;*/
     margin: 0px;
     padding: 0px;
     font-family: Arial;
