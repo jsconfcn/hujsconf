@@ -79,7 +79,7 @@ exports.sponsors = [
 	{
 		"name": "JetBrains",
 		"url": "http://jetbrains.com",
-		"image": "jetbrains.jpg",
+		"image": "jetbrains.png",
 		"blurb": "Develop with Pleasure!",
 		"description": "At JetBrains, we have a passion for making people more productive through smart software solutions that help them focus more on what they really want to accomplish, and less on mundane, repetitive 'computer busy work'"
 	},
