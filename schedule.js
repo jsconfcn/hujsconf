@@ -18,7 +18,7 @@ exports.talks = [
 	{
 		"topic" : "Apps these days are too big",
 		"abstract" : "",
-		"date" : new Date("2012-09-14T09:15:00Z"),
+		"date" : new Date("2012-09-15T09:00:00Z"),
 		"duration" : 40,
 		"speaker" : {
 			"name" : "James Halliday", 
@@ -79,7 +79,7 @@ exports.talks = [
 	{
 		"topic" : "0 to 60 Mobile web apps with Knockout.js and Azure Mobile Services", 
 		"abstract" : "",
-		"date" : new Date("2012-09-15T09:00:00Z"),
+		"date" : new Date("2012-09-14T09:15:00Z"),
 		"duration" : 40,
 		"speaker" : {
 			"name" : "Steve Sanderson", 
@@ -124,8 +124,8 @@ exports.talks = [
 	{
 		"topic" : "A realtime world: HTML5 WebSockets, Engine.IO, Socket.IO 1.0, SPDY & Beyond",
 		"abstract" : "",
-		"date" : new Date("2012-09-15T13:30:00Z"),
-		"duration" : 30,
+		"date" : new Date("2012-09-15T13:35:00Z"),
+		"duration" : 20,
 		"speaker" : {
 			"name" : "Guillermo Rauch", 
 			"url" : "http://github.com/guille",
@@ -139,7 +139,7 @@ exports.talks = [
 	{
 		"topic" : "The secrets of Node revealed on Windows and Azure",
 		"abstract" : "",
-		"date" : new Date("2012-09-15T14:20:00Z"),
+		"date" : new Date("2012-09-15T14:30:00Z"),
 		"duration" : 30,
 		"speaker" : {
 			"name" : "Glenn Block", 
@@ -307,7 +307,7 @@ exports.talks = [
 	{
 		"topic" : "Node.js性能跟踪与调优",
 		"abstract" : "",
-		"date" : new Date("2012-09-15T13:45:00Z"),
+		"date" : new Date("2012-09-15T14:00:00Z"),
 		"duration" : 30,
 		"speaker" : {
 			"name" : "Pengchun/朋春/张轩丞", 
