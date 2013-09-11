@@ -1,6 +1,6 @@
 /* splash.css */
 
-.splash { 
+.splash {
   position: absolute;
   width: 100%;
 }
@@ -11,14 +11,14 @@
   height: 768px;
 }
 
-.parallax-layer { 
+.parallax-layer {
   position:absolute;
 }
 
 .front {
   z-index: 998;
   position: relative;
-  margin: 0 auto; 
+  margin: 0 auto;
   width: 508px;
 }
 
@@ -214,4 +214,36 @@ span.twitter { margin: 0 auto;display:block;width:60px;height:60px;overflow:hidd
 }
 .accordion span.nick {
   text-transform: lowercase;
+}
+
+.splash-note {
+  color: #e7e7e7;
+  z-index: 998;
+  position: relative;
+  margin: 0 auto;
+}
+
+.splash-note .column-half {
+  border-radius: 4px;
+  float: none;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: rgba(50,50,50,.95);
+}
+
+.splash-note .column-half h2 {
+  text-align: left !important;
+  letter-spacing: 1px;
+  margin-top: 20px !important;
+  margin-left: 20px;
+}
+
+.splash-note ul {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.splash-note .column-half ul.list li {
+  font-size: 17px !important;
+  background-position-y: 5px !important;
 }
